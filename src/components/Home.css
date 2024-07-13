@@ -1,0 +1,246 @@
+.homeDiv{
+    width: 100%;
+   
+    height: auto;
+    display: block;
+}
+.mainHomeDiv{
+    width: 100%;
+}
+.mainContactDiv{
+  
+    width: 100%;
+}
+.subDivContact{
+   
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    display: flex;
+}
+.imageDivContactus img{
+    width: 100%;
+    height: 100%;
+}
+.contactSub2Div{
+    margin-right: 10%;
+    align-content: center;
+}
+.awardTxt{
+    font: normal normal 600 Cormorant SC;
+    font-size: 15px;
+letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+}
+.digitalMarketingTxt{
+    font: normal normal bold Cormorant SC;
+    font-size: 30px;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+.morbiTxt{
+    font: normal normal normal Poppins;
+    font-size: 12px;
+letter-spacing: 0px;
+color: #000000;
+}
+.btnContactUs{
+    width: 160px;
+height: 50px;
+background: #FF3147 0% 0% no-repeat padding-box;
+border-radius: 2px;
+align-content: center;
+text-align: center;
+color: white;
+
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #ff0066;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-field {
+    width: 48%;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.terms label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6005c;
+}
+/* slider */
+
+.sliderSubDiv {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+
+.whatWeTxt {
+    
+    font: normal normal Cormorant SC;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+.twoContentsDiv {
+    display: flex;
+    margin-top: 20px;
+}
+.div1 {
+    font: normal normal bold Cormorant SC;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    width: 60%;
+}
+.div2 {
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    align-content: center;
+}
+.sliderImagesDiv {
+    display: flex;
+}
+.sliderContainer {
+    display: flex;
+    overflow: hidden;
+    width: 500px; /* Adjust the width to match your design */
+}
+.hh1 {
+    margin: 10px;
+    width: 250px;
+    display: none;
+}
+.hh1:first-child,
+.hh1:nth-child(2) {
+    display: block;
+}
+.thirdContentDiv {
+    display: none;
+    background-color: #FF3147;
+    justify-content: center;
+    align-content: center;
+}
+.c1 {
+    margin: 10px;
+    width: 250px;
+}
+.readMoreBtn {
+    width: 185px;
+    height: 50px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    align-content: center;
+    color: #FF3147;
+}
+.dotImageSlider {
+    text-align: center;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+.active {
+    background-color: #717171;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+/* why we */
+
+.margintop{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .subDivContact{
+        display: block;
+        margin-left: 1%;
+        margin-right: 1%;
+      
+    }
+    .sliderSubDiv{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+  }

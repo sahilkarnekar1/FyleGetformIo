@@ -1,0 +1,104 @@
+.subLast1{
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    margin-top: 10px;
+}
+.expertGrowthTxt{
+    text-align: center;
+    font: normal normal Cormorant SC;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color: #FF3147;
+    text-transform: uppercase;
+}
+.ourGrowthTxt{
+    text-align: center;
+font: normal normal bold 25px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+.countsDiv{
+    display: flex;
+   
+    justify-content: center;
+}
+.count1Div{
+    width: 15%;
+    height: 160px;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    background-color: aliceblue;
+}
+.headCount{
+    font: normal normal Poppins;
+    font-size: 30px;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+.baseTxt{
+    font: normal normal Poppins;
+    font-size: 16px;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.peopleAboutus{
+    text-align: center;
+font: normal normal bold 25px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+.simpleBottomTxt{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+.bottom2Divs{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.companyName{
+    font: normal normal bold 20px/34px Poppins;
+letter-spacing: 0px;
+color: #FF3147;
+}
+.companyDesc{
+    font: normal normal 300 20px/34px Poppins;
+letter-spacing: 0px;
+color: #808080;
+}
+.mainFooterDiv{
+    padding: 50px;
+    background-color: #FF3147;
+}
+.mainFooterDiv img{
+    width: 100%;
+}
+.bottomDiv{
+    margin-top: 100px;
+    text-align: center;
+    font: normal normal Cormorant SC;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+}
+.count1Div:hover{
+    box-shadow: 0 8px 16px rgba(6, 6, 6, 0.949); /* Shadow added */
+}
+@media screen and (max-width: 480px) {
+
+    .subLast1{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+  }

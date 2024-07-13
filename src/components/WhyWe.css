@@ -1,0 +1,83 @@
+.subDivTest1{
+    margin: 10%;
+   
+}
+
+.whyChooseUs{
+    font: normal normal Cormorant SC;
+letter-spacing: 0px;
+color: red;
+font-size: 20px;
+border: solid 2px red;
+width: fit-content;
+}
+.whyBextTxt{
+    font: normal normal bold Cormorant SC;
+    font-size: 30px;
+letter-spacing: 0px;
+margin-top: 20px;
+color: #000000;
+text-transform: uppercase;
+}
+.contDiv1{
+    width: 20%;
+    
+    margin: 10px;
+}
+.multiItemsDiv{
+    display: flex;
+    justify-content: center;
+   
+}
+.ourProjectTxt{
+    text-align: center;
+font: normal normal 600 20px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+}
+.projectsWithImgDiv{
+    display: flex;
+}
+.p1DivTxt{
+    font: normal normal medium 20px/80px Poppins;
+    font-weight: bold;
+letter-spacing: 0px;
+color: #000000;
+}
+.p1LoremProject{
+    font: normal normal normal 16px/28px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.projectsDiv1{
+    padding: 15px;
+}
+.projectsDiv1:hover{
+    background-color: #FF3147;
+}
+
+.projectsDivTxt{
+    margin: 10px;
+    background-color: rgb(216, 215, 215);
+    align-content: center;
+}
+.bigImage{
+    width: 770px;
+    height: 567;
+}
+
+@media screen and (max-width: 480px) {
+
+    .projectsWithImgDiv {
+        width: 100%;
+        display: block;
+    }
+    .bigImage{
+        width: 100%;
+    }
+    .subDivTest1{
+        margin: 1%;
+    }
+  }
